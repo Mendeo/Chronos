@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+	    android:title="@string/preferences_category_geolocation_title">
+	    <CheckBoxPreference
+	        android:title="@string/preferences_auto_location_title"
+	        android:key="@string/preferences_auto_location_key"
+	        android:summary="@string/preferences_auto_location_summary"
+	    />
+	    <ListPreference
+	        android:title="@string/preferences_auto_location_freq_title"
+	        android:key="@string/preferences_auto_location_freq_key"
+	        android:entries="@array/auto_location_freq_pref"
+	        android:entryValues="@array/auto_location_freq_pref"
+	        android:dependency="@string/preferences_auto_location_key"	        
+	    />
+	    <ListPreference
+	        android:dialogTitle="@string/preferences_list_region_dialog_title"
+	        android:title="@string/preferences_list_region_title"
+	        android:summary="@string/preferences_list_region_summary"
+	        android:key="@string/preferences_list_region_key"
+	    />
+	    <ListPreference
+			android:dialogTitle="@string/preferences_list_city_dialog_title"
+	        android:title="@string/preferences_list_city_title"
+	        android:summary="@string/preferences_list_city_summary"
+	        android:key="@string/preferences_list_city_key"
+	    />	    
+	</PreferenceCategory>
+</PreferenceScreen>

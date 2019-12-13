@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/menu_set_date_time"
+        android:icon="@drawable/set_date_and_time_button"
+        android:title="@string/set_date"
+        app:showAsAction="ifRoom"
+    />	
+	<item
+	    android:id="@+id/menu_insert_reminder"
+		android:icon="@android:drawable/ic_menu_add"
+		android:title="@string/menu_insert_reminder"
+		app:showAsAction="ifRoom"
+	/>
+	<item
+	    android:id="@+id/menu_delete_reminders"
+		android:icon="@android:drawable/ic_menu_delete"
+		android:title="@string/menu_delete_reminders"
+		app:showAsAction="ifRoom"
+	/>
+	<item
+	    android:id="@+id/menu_switch_reminders_presentation"
+		android:icon="@android:drawable/ic_menu_agenda"
+		android:title="@string/menu_delete_reminders"
+		app:showAsAction="ifRoom"
+	/>
+	<item
+	    android:id="@+id/menu_preferences"
+	    android:icon="@android:drawable/ic_menu_preferences"
+	    android:title="@string/menu_settings"
+	    app:showAsAction="ifRoom"
+	/>
+</menu>

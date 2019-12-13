@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ВИДЖЕТ -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="WidgetButtonsSize">60dp</dimen>
+    <dimen name="WidgetButtonPressedLayerPadding">1dp</dimen>
+    <dimen name="WidgetButtonCornersRadius">9dp</dimen>
+    <!-- Расстояние между кнопками 12, поэтому WidgetButtonsSizePlusDeltaWidth = WidgetButtonsSize + 16 -->
+    <dimen name="WidgetButtonsSizePlusDeltaWidth">72dp</dimen>
+    <!-- Расстояние между кнопками по высоте 5, поэтому WidgetButtonsSizePlusDeltaHeight = WidgetButtonsSize + 16 -->
+    <dimen name="WidgetButtonsSizePlusDeltaHeight">65dp</dimen>
+    <!-- Расширим текст на 6dp влево и вправо за границу кнопки. Но по какой-то причине текст перетягивается левее, поэтому искусственно поправим на 2dp вправо.-->
+    <dimen name="WidgetButtonTextWidth">68dp</dimen>
+    <dimen name="WidgetButtonTextShift">-4dp</dimen>
+    <!-- ******************************************************* -->
+    <dimen name="WidgetButtonTextHeight">12dp</dimen>
+    <dimen name="WidgetButtonTextSize">10dp</dimen>
+    
+    <dimen name="min_widget_4x1_width">270dp</dimen>
+    <dimen name="min_widget_4x1_height">30dp</dimen>
+    <dimen name="min_widget_2x3_width">130dp</dimen>
+    <dimen name="min_widget_2x3_height">130dp</dimen>
+    <!-- Ширина виджета минус 8dp (marginLeft и marginRight) -->
+    <dimen name="widget2x3MainTextWidth">136dp</dimen>
+    <dimen name="widget2x3MainTextHeight">30dp</dimen>
+    <dimen name="widget2x3MainTextSize">12dp</dimen>
+    <!-- Расширим текст на 6dp влево и вправо за границу кнопки. Но по какой-то причине текст перетягивается левее, поэтому искусственно поправим на 2dp вправо.-->
+    <dimen name="Widget2x3ButtonTextShift">4dp</dimen>
+    <!-- ************************************************ -->
+    
+	<dimen name="BackgroundLineHeiht">52dp</dimen>
+    <dimen name="DividerHeight">3dp</dimen>
+    <dimen name="SlidingViewBottom">40dp</dimen>
+    <dimen name="AllRemindersRowTimeTextSize">16sp</dimen>
+    <dimen name="AllRemindersRowTitleTextSize">20sp</dimen>
+    <dimen name="TodayRemindersRowTimeTextSize">16sp</dimen>
+    <dimen name="TodayRemindersRowTitleTextSize">20sp</dimen>
+    <dimen name="MainChronosTextSize">16sp</dimen>
+    <dimen name="ActivityTextSize">14sp</dimen>
+    <dimen name="ActivityTitleSize">20sp</dimen>
+</resources>

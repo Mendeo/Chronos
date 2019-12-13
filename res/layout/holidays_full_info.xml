@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>    	
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+	<TextView
+		android:id="@+id/HolidaysShortDescText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:gravity="center"
+		android:textSize="@dimen/ActivityTitleSize"
+		android:textColor="@color/MainTitleColor"
+	/> 	
+	<TextView
+		android:id="@+id/HolidaysCategoryText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:textStyle="bold"
+		android:textSize="@dimen/MainChronosTextSize"
+		android:textColor="@color/MainTitleColor"
+	/>
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >	
+		<TextView
+			android:id="@+id/HolidaysFullDescText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:textSize="@dimen/ActivityTextSize"
+			android:lineSpacingMultiplier="1"
+			android:textColor="@color/MainTextColor"
+		/>	
+	</ScrollView>
+</LinearLayout>

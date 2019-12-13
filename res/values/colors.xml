@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="ButtonPressedLayerColor">#99FFFFFF</color>
+        <color name="MainThemeColor">#FF4E81B2</color>
+        <color name="MainTextColor">#FFB1ECF6</color>
+        <color name="MainTextColor_mainWindow">#FFFFFFFF</color>
+        <color name="MainTitleColor">#FF4E81B2</color>
+        <color name="holidays_type1">#FFCE0000</color>
+        <color name="holidays_type2">#FFE37519</color>
+        <color name="holidays_type3">#FF1B9200</color>
+        <color name="holidays_type456">#FFD5BE31</color>
+        <color name="holidays_type7">#FFCA7192</color>
+        <color name="holidays_type8">#FF634A98</color>
+        <color name="calendar_reminder_days">#FF85B92F</color>
+        <color name="calendar_selected_day">#FF777878</color>
+        <color name="calendar_title_text_color">#FFFFFFFF</color>
+        <color name="calendar_sunday_text_color">#FFF84B63</color>
+        <color name="calendar_workday_text_color">#FFFFFFFF</color>
+        <color name="menu_click_color">#FF426E99</color>
+        <color name="history_divider">#FF4E81B2</color>
+        <color name="MainBackgroundFrom">#01020B</color>
+        <color name="MainBackgroundTo">#02051D</color>
+</resources>

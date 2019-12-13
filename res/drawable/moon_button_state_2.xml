@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize="true"
+    android:dither="true" >
+    <item
+        android:drawable="@drawable/moon_button_normal_2"
+        android:state_pressed="false"
+	 />	
+    <item
+        android:state_pressed="true">
+		<layer-list>
+			<item>
+				<bitmap
+					android:src="@drawable/moon_button_normal_2"
+					android:gravity="center"
+				/>
+			</item>
+			<item>
+				<shape>
+					<padding
+						android:left="@dimen/WidgetButtonPressedLayerPadding"
+						android:right="@dimen/WidgetButtonPressedLayerPadding"
+						android:top="@dimen/WidgetButtonPressedLayerPadding"
+						android:bottom="@dimen/WidgetButtonPressedLayerPadding"
+					/>
+					<solid
+						android:color="#00000000"
+					/>
+				</shape>
+			</item>
+			<item>
+				<shape
+					android:shape="rectangle">
+					<solid
+						android:color="@color/ButtonPressedLayerColor"
+					/>
+					<corners
+						android:radius="@dimen/WidgetButtonCornersRadius"
+					/>
+				</shape>
+			</item>
+		</layer-list>
+	</item>
+</selector>

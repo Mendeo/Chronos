@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="actionDropDownStyle">@style/CustomListNavigationBackground</item>
+    </style>
+    <!-- Создаём фон в выпадающем списке навигации ActionBar -->
+    <style name="CustomListNavigationBackground" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:popupBackground">#FF4E81B2</item>
+    </style>
+</resources>
